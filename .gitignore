@@ -1,0 +1,11 @@
+.gradle
+build
+run
+out
+.minecraft
+*.log
+*.jar
+!build/libs/*.jar
+.DS_Store
+*.iml
+.idea
