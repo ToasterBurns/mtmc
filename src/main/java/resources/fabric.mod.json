@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mobtracker",
+  "version": "${version}",
+  "name": "MobTracker",
+  "description": "Track entities with nametags - Press H to toggle",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mobtracker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.mobtracker.MobTrackerMod"],
+    "client": ["com.example.mobtracker.MobTrackerClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.10",
+    "java": ">=21"
+  }
+}
