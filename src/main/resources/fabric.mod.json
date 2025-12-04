@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mobtracker",
+  "version": "1.0.0",
+  "name": "MobTracker",
+  "description": "Track entities with specific nametags in Minecraft",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mobtracker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.mobtracker.MobTrackerMod"],
+    "client": ["com.example.mobtracker.MobTrackerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.10",
+    "java": ">=21"
+  }
+}
